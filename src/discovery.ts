@@ -44,7 +44,7 @@ export class PeerDiscovery {
 				}
 			} else {
 				const body: any = await ky.get(
-					`https://raw.githubusercontent.com/ArkEcosystem/peers/master/${networkOrHost}.json`,
+					`https://raw.githubusercontent.com/tycoon69-labs/peers/master/${networkOrHost}.json`,
 				).json();
 
 				for (const seed of body) {

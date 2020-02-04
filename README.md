@@ -1,11 +1,11 @@
-# @arkecosystem/peers
+# @tycoon69-labs/peers
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/ARKEcosystem/peers/master/banner.png" />
 </p>
 
-[![Latest Version](https://badgen.now.sh/npm/v/@arkecosystem/peers)](https://www.npmjs.com/package/@arkecosystem/peers)
-[![Node Engine](https://badgen.now.sh/npm/node/@arkecosystem/peers)](https://www.npmjs.com/package/@arkecosystem/peers)
+[![Latest Version](https://badgen.now.sh/npm/v/@tycoon69-labs/peers)](https://www.npmjs.com/package/@tycoon69-labs/peers)
+[![Node Engine](https://badgen.now.sh/npm/node/@tycoon69-labs/peers)](https://www.npmjs.com/package/@tycoon69-labs/peers)
 [![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/typescript-peers)](https://circleci.com/gh/ArkEcosystem/typescript-peers)
 [![Codecov](https://badgen.now.sh/codecov/c/github/ArkEcosystem/typescript-peers)](https://codecov.io/gh/ArkEcosystem/typescript-peers)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
@@ -15,7 +15,7 @@
 ## Installation
 
 ```bash
-yarn add @arkecosystem/peers
+yarn add @tycoon69-labs/peers
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ yarn add @arkecosystem/peers
 ### Peers via GitHub
 
 ```ts
-import { PeerDiscovery } from "@arkecosystem/peers";
+import { PeerDiscovery } from "@tycoon69-labs/peers";
 
 peerDiscovery = await PeerDiscovery.new({
 	networkOrHost: "devnet"
@@ -39,7 +39,7 @@ peers = peerDiscovery
 ### Peers via Relay
 
 ```ts
-import { PeerDiscovery } from "@arkecosystem/peers";
+import { PeerDiscovery } from "@tycoon69-labs/peers";
 
 peerDiscovery = await PeerDiscovery.new({
 	networkOrHost: "http://dexplorer.ark.io/api/v2/peers",

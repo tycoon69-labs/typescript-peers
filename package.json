@@ -1,14 +1,14 @@
 {
-	"name": "@arkecosystem/peers",
+	"name": "@tycoon69-labs/peers",
 	"version": "0.2.1",
 	"description": "A simple TypeScript peer discovery client for the ARK Blockchain.",
-	"homepage": "https://github.com/ArkEcosystem/typescript-peers",
+	"homepage": "https://github.com/tycoon69-labs/typescript-peers",
 	"bugs": {
-		"url": "https://github.com/ArkEcosystem/typescript-peers/issues"
+		"url": "https://github.com/tycoon69-labs/typescript-peers/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:ArkEcosystem/typescript-peers.git"
+		"url": "git@github.com:tycoon69-labs/typescript-peers.git"
 	},
 	"license": "MIT",
 	"author": "Brian Faust <hello@basecode.sh>",
